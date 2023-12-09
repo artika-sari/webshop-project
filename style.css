@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #758467;
+}
+
+ul{
+    display: flex;
+    margin-left: 30px;
+}
+
+li{
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    background-color: #DFE6DA;
+    border-radius: 0 0 60px 60px;
+    justify-content: space-between;
+}
+
+
+nav{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.logo{
+    font-style: italic;
+    padding-right: 90px;
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: rgb(84, 101, 84);
+}
+
+.shop {
+    color: #edf5e8;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title h2 {
+    flex: 1;
+    margin-right: 20px;  
+}
+
+.title img {
+    height: 300px;
+    width: auto;
+    border-radius: 15px 50px;
+}
+
+.title button {
+    background-color:#DFE6DA;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+}
+.title button:hover{
+    background-color: rgb(84, 101, 84);
+}
+.img-two{
+    border-radius: 150px 150px 0 0;
+    margin-left: 4%;
+    margin-top: 8%;
+}
+.offers{
+    background-color:white;
+    height: 370px;
+    text-align: center;
+}
+.offers h1{
+    font-size: 40px;
+    padding-top: 40px;
+}
+.bx-one img{
+    width: 130px;
+
+}
+.bx-one{
+    margin-left: 20px;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+}
+.parent-bx{
+    display: flex;
+    margin-top: 40px;
+}
+.text-one{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bx-two{
+    margin-left: 55px;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+}
+.text-two{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bx-three{
+    margin-left: 20px;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+}
+.text-three{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.categories{
+    background-color:rgb(232,222,213);
+    height: 900px;
+}
+.page-categories h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+}
+.parent-card{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+.card-one{
+    margin-left: 150px;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.card-one img{
+    border-radius: 20px;
+}
+.text-card-one{
+    padding: 30px 20px;
+    background-color: #0A5c36;
+    border-radius: 20px;
+}
+.card-one:hover{
+    box-shadow: 0 8px 16px 0 #144527;
+}
+.card-two{
+    margin-left: 50px;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.card-two img{
+    border-radius: 20px;
+}
+.text-card-two{
+    padding: 30px 20px;
+    background-color:  #0A5c36;
+    border-radius: 20px;
+}
+.card-two:hover{
+    box-shadow: 0 8px 16px 0#144527;
+}
+.card-three{
+    margin-left: 50px;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.card-three img{
+    border-radius: 20px;
+}
+.text-card-three{
+    padding: 30px 20px;
+    background-color:  #0A5c36;
+    border-radius: 20px;
+}
+.card-three:hover{
+    box-shadow: 0 8px 16px 0#144527;
+}
+.card-four{
+    margin-left: 50px;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.card-four img{
+    border-radius: 20px;
+}
+.text-card-four{
+    padding: 30px 20px;
+    background-color:  #0A5c36;
+    border-radius: 20px;
+}
+.card-four:hover{
+    box-shadow: 0 8px 16px 0#144527;
+}
+.parent-card-two{
+    display: flex;
+    margin-top: 8%;
+    margin-left: 20%;
+    color: whitesmoke;
+}
+.card-five{
+    margin-left: 50px;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.card-five img{
+    border-radius: 20px;
+}
+.text-card-five{
+    padding: 30px 20px;
+    background-color:  #0A5c36;
+    border-radius: 20px;
+}
+.card-five:hover{
+    box-shadow: 0 8px 16px 0 #144527;
+}
+.card-six{
+    margin-left: 50px;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.card-six img{
+    border-radius: 20px;
+}
+.text-card-six{
+    padding: 30px 20px;
+    background-color:  #0A5c36;
+    border-radius: 20px;
+}
+.card-six:hover{
+    box-shadow: 0 8px 16px 0 #144527;
+}
+.card-svn{
+    margin-left: 50px;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.card-svn img{
+    border-radius: 20px;
+}
+.text-card-svn{
+    padding: 30px 20px;
+    background-color:  #0A5c36;
+    border-radius: 20px;
+}
+.card-svn:hover{
+    box-shadow: 0 8px 16px 0#144527 ;
+}
+.last-page{
+    background-color: white;
+    height: 550px;
+    display: flex ;
+}
+.last img{
+    margin-top: 10%;
+    margin-left: 40px;
+}
+.text-last h1{
+    color: black;
+    font-size: 30px;
+    margin-left: 10%;
+}
+.text-last p{ 
+    width: 400px;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+    padding-top: 20px;
+    font-family: serif;
+}
+.text-last{
+    margin-top: 4%;
+}
+.text-last button{
+    padding:10px 40px 10px 40px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.img-last{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+footer {
+    background-color: #1D2E28;
+    padding: 80px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+.footer-contents h4 {
+    font-size: 20px;
+}
+.footer-contents p{
+    margin: 20px 50px 20px 0px;
+}
+.footer-contents li {
+    margin: 20px 50px 20px 0px;
+    text-decoration: none;
+    display: block;
+}
+.footer-contents a {
+    text-decoration: none;
+    color: white;
+}
+.logo-footer{
+    margin-bottom: 40px;
+}
+
